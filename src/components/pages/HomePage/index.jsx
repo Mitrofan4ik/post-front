@@ -1,8 +1,13 @@
 import React from 'react';
+import styled from 'styled-components';
+
+const Wrapper = styled.div`
+
+`
 
 class HomePage extends React.Component {
   render() {
-    return <div>Home page</div>;
+    return <Wrapper>Home page</Wrapper>;
   }
 }
 
